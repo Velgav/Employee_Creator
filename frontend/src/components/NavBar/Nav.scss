@@ -1,0 +1,41 @@
+.header {
+  height: 4.375rem; /* 70px converted to rem */
+  /* margin-bottom: 7.5rem; 120px converted to rem */
+  background-color: var(--mantine-color-body);
+  border-bottom: 0.0625rem solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4)); /* 1px converted to rem */
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+  border-radius: 5px;
+  background: #CFDEF3;
+}
+
+.logo {
+  font-size: 1.5625rem; /* 25px converted to rem */
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.inner {
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  width: 150px;
+  display: block;
+  line-height: 1;
+  /* padding: 0.5rem 0.75rem; 8px and 12px converted to rem */
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+
+  &:hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  }
+}

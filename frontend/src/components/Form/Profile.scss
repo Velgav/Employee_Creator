@@ -1,0 +1,51 @@
+.employeeForm {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Adjust as needed */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-betwee; */
+  gap: 40px;
+}
+
+.formField {
+  margin-bottom: 20px;
+}
+
+.textInput,
+.selectInput,
+.textareaInput {
+  width: 50%;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+.radioItems {
+  margin-bottom: 10px;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  flex: 2;
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+.note button:last-child {
+  display: contents;
+  margin-right: 0;
+}

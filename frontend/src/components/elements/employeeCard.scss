@@ -1,0 +1,56 @@
+.card {
+  min-width: 350px;
+  padding: 1.5rem;
+  /* border-radius: 8px; */
+  /* border: 1px solid #e0e0e0; */
+  border: none;
+  // background-color: #f8f8fc;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+/* .iconGroup {
+  display: flex;
+  justify-content: flex-end;
+} */
+.group {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.avatarGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.profileRole {
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.contactGrid {
+  margin-top: 16px;
+}
+
+.contactGridText {
+  color: black;
+  font-size: 25px;
+}
